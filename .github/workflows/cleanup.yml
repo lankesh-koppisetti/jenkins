@@ -2,7 +2,7 @@ name: Daily AWS Cleanup
 
 on:
   schedule:
-    - cron: "30 23 * * *"   # Runs every day at 11:30 PM UTC
+    - cron: "45 22 * * *"   # Runs every day at 11:30 PM UTC
   workflow_dispatch:        # Manual trigger option
 
 jobs:
